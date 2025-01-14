@@ -1,6 +1,6 @@
-# lg_task2
+# Liquid Galaxy task2
 
-A new Flutter project.
+Building a simple app depicting the california wildfires.
 
 ## Getting Started
 
