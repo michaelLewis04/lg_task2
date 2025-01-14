@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>India.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.8</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.8</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/firedept.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>LaWildfires</name>
+		<open>1</open>
+		<Folder>
+			<name>Hurst</name>
+			<Placemark>
+						<name>Hurst fire</name>
+						<LookAt>
+							<longitude>-118.4718069</longitude>
+							<latitude>34.3259745</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>57738.80136424676</range>
+							<altitudeMode>relativeToSeaFloor</altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.4718069,34.3259745,0</coordinates>
+						</Point>
+					</Placemark>
+			
+			
+		</Folder>
+		<Folder>
+			<name>Palisades</name>
+			<Placemark>
+						<name>Palisades fire</name>
+						<LookAt>
+							<longitude>-118.4298968411304</longitude>
+							<latitude>34.05830371720434</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>57846.00721774623</range>
+							<altitudeMode>relativeToSeaFloor</altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.4298968411304,34.05830371720434,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+		<Folder>
+			<name>Sunset</name>
+			<Placemark>
+						<name>Sunset fire</name>
+						<LookAt>
+							<longitude>-118.3308557</longitude>
+							<latitude>34.1174589</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>100694.8008039594</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.3308557,34.1174589,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eaton</name>
+			<Placemark>
+						<name>Eaton fire</name>
+						<LookAt>
+							<longitude>-118.0581997</longitude>
+							<latitude>34.1962674</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>154899.4996182248</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.0581997,34.1962674,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

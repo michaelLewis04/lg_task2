@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>air.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.8</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pal3/icon37.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.8</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pal3/icon37.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>LaAir</name>
+		<open>1</open>
+		<Folder>
+			<name>Torrance</name>
+			<Placemark>
+						<name>Torrance air</name>
+						<LookAt>
+							<longitude>-118.3413215</longitude>
+							<latitude>33.7718600</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>57738.80136424676</range>
+							<altitudeMode>relativeToSeaFloor</altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.3413215,33.7718600,0</coordinates>
+						</Point>
+					</Placemark>
+			
+			
+		</Folder>
+		<Folder>
+			<name>Inglewood</name>
+			<Placemark>
+						<name>Inglewood air</name>
+						<LookAt>
+							<longitude>-118.3713930</longitude>
+							<latitude>33.9422863</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>57846.00721774623</range>
+							<altitudeMode>relativeToSeaFloor</altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.3713930,33.9422863,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+		<Folder>
+			<name>Pasadena</name>
+			<Placemark>
+						<name>Pasadena air</name>
+						<LookAt>
+							<longitude>-118.0938567</longitude>
+							<latitude>34.0939015</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>100694.8008039594</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.0938567,34.0939015,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+		<Folder>
+			<name>Compton</name>
+			<Placemark>
+						<name>Compton air</name>
+						<LookAt>
+							<longitude>-118.2582576</longitude>
+							<latitude>33.8887916</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>154899.4996182248</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.2582576,33.8887916,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+        <Folder>
+			<name>Lakewood</name>
+			<Placemark>
+						<name>Lakewood air</name>
+						<LookAt>
+							<longitude>-118.0665814</longitude>
+							<latitude>33.8421599</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<gx:fovy>35</gx:fovy>
+							<range>154899.4996182248</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-118.0665814,33.8421599,0</coordinates>
+						</Point>
+					</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
